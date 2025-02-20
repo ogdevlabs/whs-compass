@@ -1,6 +1,5 @@
 class Player:
-    @staticmethod
-    def get_choice():
+    def get_choice(self):
         """Player would be entering an input to play,
         player input is limited
         to valid game options"""
