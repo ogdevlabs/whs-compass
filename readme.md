@@ -30,3 +30,19 @@ This repository goal is to provide the mentee with the required Python game deve
 
 ## Disclaimer
 Usage of AI Generative Pre-Trained Transformer tools might be in consideration to use as learning support the mentee experience
+
+## Installation and execution
+
+### Step 1: Set up virtual environment
+python -m venv venv
+source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate  # Windows
+
+### Step 2: Install dependencies
+pip install pytest
+
+### Step 3: Run the game
+python main.py
+
+### Step 4: Run tests
+pytest
