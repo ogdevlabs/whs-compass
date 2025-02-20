@@ -4,7 +4,7 @@ class Player:
         player input is limited
         to valid game options"""
         while True:
-            choice = input("Enter rock. paper, scissors").strip().lower()
+            choice = input("Enter rock, paper, or scissors: ").strip().lower()
             if choice in ['rock', 'paper', 'scissors']:
                 return choice
             print(f"Invalid selection: {choice} is not a valid option")
