@@ -3,12 +3,12 @@ from src.game import Game
 
 def main():
     rps = Game()
+    print('Welcome to RPS Game, type exit to leave the game, enjoy =)')
+    print('\n')
+    state = True
+    while state:
+        state = rps.play_round()
 
-    while True:
-        rps.play_round()
-
-        print("Leaving game...")
-        return
 
 if __name__=="__main__":
     main()
