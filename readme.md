@@ -1,6 +1,6 @@
 # Wayzata Compass Program - Code Development Support
 
-This repository goal is to provide the mentee with the required Python game development exploration via an 14-week planned work. 
+This repository goal is to provide the mentee with the required Python game development exploration via a 9-week planned work. 
 
 ## Remarks: 
 - Completion of video game is optional
@@ -22,11 +22,10 @@ This repository goal is to provide the mentee with the required Python game deve
 - Promote Mentee rationalization
 - Identify Mentee opportunity areas
 
-## 14-Week Plan
+## 9-Week Plan
 
 - ### Weeks 1–4: Project setup and core logic
 - ### Weeks 5–9: Enhancements and features
-- ### Weeks 10–14: Final Development & Polish
 
 ## Disclaimer
 Usage of AI Generative Pre-Trained Transformer tools might be in consideration to use as learning support the mentee experience
