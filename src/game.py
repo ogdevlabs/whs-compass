@@ -20,6 +20,7 @@ class Game:
         winner = self.determine_winner(player_choice, cpu_choice)
         print(f"\nYou chose: {player_choice}, CPU chose: {cpu_choice}")
         print(f"Winner: {winner.upper()}" if winner != "draw" else "It's a DRAW!")
+        print('\n')
         return True
 
     def determine_winner(self, player_choice, cpu_choice):
