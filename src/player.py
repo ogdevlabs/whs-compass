@@ -4,10 +4,11 @@ class Player:
         player input is limited
         to valid game options"""
         while True:
-            choice = input("Enter rock, paper, or scissors: ").strip().lower()
+            print("Enter q to exit")
+            choice = input("Enter Rock, Paper, or Scissors: ").strip().lower()
             if choice in ['rock', 'paper', 'scissors']:
                 return choice
-            elif choice == 'exit':
+            elif choice == 'q':
                 return False
             else:
                 print(f"Invalid selection: {choice} is not a valid option")

@@ -28,7 +28,7 @@ class Game:
         if player_choice == cpu_choice:
             return "draw"
         elif (player_choice == "rock" and cpu_choice == "scissors") or \
-                (player_choice == "scissors" and cpu_choice == "paper") or \
+                (player_choice == "scissor" and cpu_choice == "paper") or \
                 (player_choice == "paper" and cpu_choice == "rock"):
             return "player"
         else:
